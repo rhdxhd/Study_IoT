@@ -1,0 +1,73 @@
+context.xml
+
+<Resource auth="Container"
+        driverClassName="oracle.jdbc.driver.OracleDriver"
+        maxActive="50"
+        maxWait="1000"
+        name="teamAll"
+        password="0000"
+        type="javax.sql.DataSource"
+        url="jdbc:oracle:thin:@localhost:1521:xe"
+        username="system"
+    />  
+    
+    <Resource auth="Container"
+        driverClassName="oracle.jdbc.driver.OracleDriver"
+        maxActive="50"
+        maxWait="1000"
+        name="CSS"
+        password="css1644"
+        type="javax.sql.DataSource"
+        url="jdbc:oracle:thin:@localhost:1521:orcl"
+        username="c##eyedial"
+    />  
+
+
+
+servlet-context.xml
+
+        <beans:bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"> 
+		<beans:property name="maxUploadSize" value="10000000" /> 
+	</beans:bean>
+
+
+
+
+pom.xml
+
+                <dependency> 
+			<groupId>commons-fileupload</groupId> 
+			<artifactId>commons-fileupload</artifactId> 
+			<version>1.2.1</version> 
+		</dependency> 
+		
+		<dependency> 
+			<groupId>commons-io</groupId> 
+			<artifactId>commons-io</artifactId> 
+			<version>1.4</version> 
+		</dependency> 
+
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			 <artifactId>gson</artifactId>
+			 <version>2.8.0</version>
+		</dependency>  
+
+
+
+	
+
+	<dependency>
+    		<groupId>org.jcodec</groupId>
+    		<artifactId>jcodec</artifactId>
+    		<version>0.2.2</version>
+	</dependency>
+
+	<dependency>
+    		<groupId>org.jcodec</groupId>
+    		<artifactId>jcodec-javase</artifactId>
+    		<version>0.2.2</version>
+	</dependency>
+
+
+// jsp파일에서 임포트 시켜아함

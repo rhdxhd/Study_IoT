@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyVCharTalk.iml" filepath="$PROJECT_DIR$/MyVCharTalk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MyVCharTalk.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MyVCharTalk.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MyVCharTalk.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MyVCharTalk.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MyVCharTalk.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MyVCharTalk.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MyVCharTalk.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MyVCharTalk.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/_38_MyTalk_Bluetooth.MyVCharTalk.iml" filepath="$PROJECT_DIR$/.idea/modules/_38_MyTalk_Bluetooth.MyVCharTalk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/_38_MyTalk_Bluetooth.MyVCharTalk.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/_38_MyTalk_Bluetooth.MyVCharTalk.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/_38_MyTalk_Bluetooth.MyVCharTalk.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/_38_MyTalk_Bluetooth.MyVCharTalk.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/_38_MyTalk_Bluetooth.MyVCharTalk.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/_38_MyTalk_Bluetooth.MyVCharTalk.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/_38_MyTalk_Bluetooth.MyVCharTalk.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/_38_MyTalk_Bluetooth.MyVCharTalk.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>
