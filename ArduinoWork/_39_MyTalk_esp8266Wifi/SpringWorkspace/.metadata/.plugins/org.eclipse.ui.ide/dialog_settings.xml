@@ -75,7 +75,10 @@
 		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\Study_IoT\ArduinoWork\_39_MyTalk_esp8266Wifi\SpringWorkspace\AnSpring_RaspApp"/>
 			<item value="D:\ChossLec\Android_190822\AndroidProject\AnMulti_RecyclerView_Onclick_190905\SpringWorkspace\AnSpring_App"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
