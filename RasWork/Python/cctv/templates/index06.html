@@ -1,0 +1,33 @@
+
+<html>
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+			  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	
+		<title>WEBCAM STREAMING</title>
+	</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8  offset-lg-2">
+				<h3 class="mt-5">Live Streaming</h3> 	<!-- mt-5는 공백을 주기 위한 것 -->
+				<img src="{{ url_for('video_feed') }}" width="100%">
+			</div>
+			<div class="col-lg-8  offset-lg-2">
+				<form method="GET" action="/servo_control">
+					<input type="range" min="0" max="180" name="deg" value={{deg}} onchange="this.form.submit()"/> 		
+				</form>
+				<a href="{{ url_for('servo_control', deg=deg+10) }}"><input type="button" value="+10" ></a>
+				<a href="{{ url_for('servo_control', deg=deg-10) }}"><input type="button" value="-10" ></a>
+				각도 : {{deg}}	
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>
